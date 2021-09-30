@@ -1,0 +1,2 @@
+CALL cd C:\Program Files\apache-jmeter-5.3\apache-jmeter-5.3\bin
+CALL jmeter.bat -n -t Bejenari_serghei.jmx -l log.csv -e -o C:\report\HTML -Jduration=3600 -Jusers=1 -Jjmeterengine.force.system.exit=false
